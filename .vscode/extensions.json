@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "nix-community.vscode-nix",
+    "serokell.nix-env-selector",
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-gradle",
+    "vscjava.vscode-java-test"
+  ]
+}

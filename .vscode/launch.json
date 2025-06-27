@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Android App (attach)",
+      "type": "java",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 8700,
+      "preLaunchTask": "Launch App on Device",
+      "projectName": "AndroidHelloWorld"
+    },
+    {
+      "name": "Debug Unit Tests",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "org.junit.runner.JUnitCore",
+      "args": "com.example.helloworld.MainActivityTest",
+      "projectName": "AndroidHelloWorld"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "nixEnvSelector.shellFile": "shell.nix",
+  "gradle.tasks.autoDetect": "workspace",
+  "gradle.wrapper.enabled": false,
+  "java.debug.settings.onBuildFailureProceed": true
+}
