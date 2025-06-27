@@ -1,4 +1,4 @@
-package com.example.helloworld
+package ba.out.bring.helloworld
 
 import android.widget.Button
 import android.widget.TextView

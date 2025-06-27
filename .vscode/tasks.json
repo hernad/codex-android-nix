@@ -16,7 +16,7 @@
     {
       "label": "Launch App on Device",
       "type": "shell",
-      "command": "adb shell am start -n com.example.helloworld/.MainActivity",
+      "command": "adb shell am start -n ba.out.bring.helloworld/.MainActivity",
       "dependsOn": "Install Debug APK"
     },
     {

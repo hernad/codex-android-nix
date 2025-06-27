@@ -49,7 +49,7 @@ the text view with “hello Ernad”.
 3. Launch the app on the device:
 
    ```bash
-   adb shell am start -n com.example.helloworld/.MainActivity
+   adb shell am start -n ba.out.bring.helloworld/.MainActivity
    ```
 
 ## VSCode integration
@@ -67,7 +67,7 @@ The debug configuration will attach to local port 8700. To forward the JDWP port
 
 ```bash
 adb wait-for-device
-adb shell pidof com.example.helloworld | xargs -I {} adb forward tcp:8700 jdwp:{}
+adb shell pidof ba.out.bring.helloworld | xargs -I {} adb forward tcp:8700 jdwp:{}
 ```
 
 You can then select **Debug Android App (attach)** in VSCode to step through your code.
