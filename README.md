@@ -1,0 +1,1 @@
+I want to setup nixos project which will provide android development
