@@ -10,7 +10,7 @@ which, when clicked, shows “hello Ernad” in a text view.
 - A nixpkgs-25.05 channel added and updated so that `<nixpkgs-25.05>` is available:
 
   ```bash
-  nix-channel --add https://nixos.org/channels/nixos-25.05 nixpkgs-25.05
+  nix-channel --add https://nixos.org/channels/nixpkgs-25.05 nixpkgs-25.05
   nix-channel --update
   ```
 
