@@ -15,7 +15,7 @@
       "type": "java",
       "request": "launch",
       "mainClass": "org.junit.runner.JUnitCore",
-      "args": "com.example.helloworld.MainActivityTest",
+      "args": "ba.out.bring.helloworld.MainActivityTest",
       "projectName": "AndroidHelloWorld"
     }
   ]
